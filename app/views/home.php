@@ -18,7 +18,7 @@
     <![endif]-->
   </head>
   <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" >
+     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" >
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -36,6 +36,7 @@
         <ul class="nav navbar-nav">
             <li><a href="/home">Home</a></li>
             <li><a href="customers">Customers</a></li>
+            <li><a href="/manage">Manage</a></li>
           <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Categories <span class="caret"></span></a>       
         <ul class="dropdown-menu" role="menu">

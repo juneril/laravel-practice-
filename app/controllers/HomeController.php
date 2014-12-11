@@ -36,6 +36,11 @@ class HomeController extends BaseController {
 		
 		return View::make('registernewcustomer');
 	}
+	public function showManage()
+	{
+		
+		return View::make('manage');
+	}
 	public function showLogin()
 	{
 		

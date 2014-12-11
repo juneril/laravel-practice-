@@ -21,6 +21,7 @@ Route::get('/hello', 'HomeController@showWelcome');
 Route::get('/registernewcustomer','HomeController@showRegistration');
 Route::get('/jun','HomeController@showLogin');
 Route::get('/home','HomeController@showHome');
+Route::get('/manage','HomeController@showManage');
 
 
 Route::post('/jun','HomeController@InsertSignup');
